@@ -1,22 +1,3 @@
-class Animal {
-    void hacerSonido() {
-        System.out.println("Algún sonido");
-    }
-}
-
-class Perro extends Animal {
-    @Override
-    void hacerSonido() {
-        System.out.println("Guau");
-    }
-}
-
-class Gato extends Animal {
-    @Override
-    void hacerSonido() {
-        System.out.println("Miau");
-    }
-}
 
 public class TestPolimorfismo {
     public static void main(String[] args) {
